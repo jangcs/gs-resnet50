@@ -1,0 +1,16 @@
+git:
+  remote: git@github.com:jangcs/gs-resnet50.git
+dvc:
+  remote: gs://cr-model/gs-resnet50
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: gs-resnet50
+  tag: ''
+#labels : 
+#  label_key1: lavel_value1
+#  label_key2: lavel_value2
+#  resolution: 640x480(sample)
